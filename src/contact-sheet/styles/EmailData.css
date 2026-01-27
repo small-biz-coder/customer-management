@@ -1,0 +1,54 @@
+.email-data-container {
+	background-color: #eee;
+	width: 60vw;
+	border-radius: 30px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 7px;
+	font-size: 1rem;
+	padding: 40px 0;
+	z-index: 1001;
+}
+.home .email-data-container h1 {
+	width: 80%;
+	font-size: 1.7rem;
+}
+.email-data-container section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.email-data-container .window-exit {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+.email-data-container .window-exit:hover {
+	cursor: pointer;
+}
+.email-data-container .window-exit .line1, .line2 {
+	display: block;
+	width: 85%;
+	height: 4px;
+	border-radius: 9px;
+	background-color: #000;
+}
+.email-data-container .window-exit .line1 {
+	transform: rotate(45deg);
+	position: relative;
+	top: calc(50% - 2px);
+	left: 7.5%;
+}
+.email-data-container .window-exit .line2 {
+	transform: rotate(-45deg);
+	position: absolute;
+	top: calc(50% - 2px);
+	left: 7.5%;
+}
+
