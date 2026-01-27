@@ -1,0 +1,68 @@
+/** {
+  border: red 1px solid;
+}*/
+body {
+  background-color: #92C0DD;
+  position: relative;
+} 
+.home h1 {
+  text-align: center;
+  width: 100vw;
+}
+.home {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.home #header-btns {
+  display: flex;
+  margin: 20px 0;
+  flex-flow: row nowrap;
+  width: 90vw;
+  justify-content: center;
+  column-gap: 10vw;
+}
+#header-btns button:hover {
+   cursor: pointer;
+   background-color: #72a0bd;
+}
+#header-btns button {
+  border: none;
+  background-color: #E7D09F;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px #82b0cd;
+}
+#header-btns .search-box {
+  display: flex;
+}
+#header-btns .search-box img {
+  width: 16px;
+  position: relative;
+  left: 179px;
+}
+#header-btns input {
+  border: none;
+  padding-left: 7px;
+  border-radius: 5px;
+}
+#header-btns input:focus {
+  outline: none;
+}
+#contacts-Wleft-icons {
+  display: flex;
+  flex-flow: row nowrap;
+}
+#contacts-Wleft-icons ul {
+  padding: 0;
+  margin: 20px;
+  width: 3vw;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+#contacts-Wleft-icons li {
+   list-style: none;
+}
